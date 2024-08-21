@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+.box{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    border: solid 8px rgb(19, 19, 19);
+   justify-content: center;
+    border-radius: 50px;
+    width: 1400px;
+    height: 600px;
+    margin-left: 70px;
+    margin-top: 50px;
+    background-color:rgba(12, 11, 7, 0.4);
+    gap: 500px;
+    
+}
+.leftside{
+
+border: solid 8px rgb(11, 10, 10);
+border-radius: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 5px;
+color: white;
+text-align: center;
+width: 400px;
+}
+.leftside h1{
+    font-size: 50px;
+}
+h2.bottom{
+    margin-top: 100px;
+    padding-bottom: 5px;
+}
+.leftside button{
+    margin-top: 20px;
+    background-color: yellow;
+    width: 90px;
+    height: 30px;
+    border-radius: 8px;
+
+}
+.leftside p{
+    color: rgba(255, 94, 0, 0.953);
+    font-weight: bold;
+    padding-left: 40%;
+}
+.rightside{
+    color: white;
+    
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    
+  
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 15px;
+    justify-content: right;
+
+
+}
+.nav button{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(226, 226, 0);
+}
+select{
+    margin-top: 200px;
+    border-radius: 10px;
+    height: 40px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-right:15px ;
+   
+
+}
+.rightbottom{
+    border: 6px solid rgb(1, 1, 1);
+    border-radius: 20px;
+   height: 400px;
+   width: 400px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.rightbottom h2,h1{
+    padding-bottom: 30px;
+}
+@media only screen and (max-width: 1200px) {
+    .box{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        border: solid 8px rgb(19, 19, 19);
+       justify-content: center;
+        border-radius: 25px;
+        width: 800px;
+        height: 700px;
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color:rgba(12, 11, 7, 0.4);
+        gap: 100px;
+        
+    }
+    select{
+        margin-top: 100px;
+        border-radius: 10px;
+        height: 40px;
+        width: 400px;
+        margin-bottom: 10px;
+        margin-right:5px ;
+       
+}
